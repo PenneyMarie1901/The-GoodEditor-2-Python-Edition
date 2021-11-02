@@ -8,7 +8,7 @@ def window():
     app = QApplication(sys.argv)
     win = QMainWindow()
     win.setGeometry(200, 200, 1200, 757)
-    win.setWindowTitle("The GoodEditor 2 Python Edition Version 1.0.0 Release #1")
+    win.setWindowTitle("The GoodEditor 2 Python Edition Version 1.0.0")
     win.setWindowIcon(QtGui.QIcon('icon.png'))
     win.show()
     sys.exit(app.exec_())
